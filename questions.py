@@ -1,10 +1,3 @@
-# This code is supporting material for the book
-# Building Machine Learning Systems with Python
-# by Willi Richert and Luis Pedro Coelho
-# published by PACKT Publishing
-#
-# It is made available under the MIT License
-
 import os
 import sys
 
@@ -109,7 +102,7 @@ for i in range(0, num_samples):
     post_vec = X_train.getrow(i)
     d = dist(post_vec, new_post_vec)
 
-    # print("=== Post %i with dist=%.2f: %s" % (i, d, post))
+    # print("=== Вопрос %i схожесть=%.2f: %s" % (i, d, post))
 
     if d < best_dist:
         best_dist = d
